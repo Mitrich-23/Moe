@@ -1,0 +1,267 @@
+.h1-style-index {
+  color: white;
+  font-family: 'Graphik LCG', sans-serif;
+  margin-bottom: 30px;
+}
+
+.main-content {
+  background-color: #222020;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@font-face {
+	font-family: 'Graphik LCG';
+	src: url('fonts/GraphikLCG-Medium.woff2') format('woff2'),
+		url('fonts/GraphikLCG-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Regular.woff2') format('woff2'),
+		url('fonts/Gilroy-Regular.woff') format('woff');
+	font-display: swap;
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-ExtraBold.woff2') format('woff2'),
+		url('fonts/Gilroy-ExtraBold.woff') format('woff');
+	font-display: swap;
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('fonts/Gilroy-Medium.woff2') format('woff2'),
+		url('fonts/Gilroy-Medium.woff') format('woff');
+	font-display: swap;
+	font-weight: 500;
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Gilroy', sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.a-style-index {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  background-color: #2f1ce4;
+  border: 3px solid #2f1ce4;
+}
+
+.a-style-index-2 {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  border: 3px solid white;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.a-style-program {
+  background-image: url(../return.png);
+  padding-left: 30px;
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.h1-style-program {
+  margin-top: 100px;
+  padding-left: 100px;
+  font-size: 48px;
+  color: #222020;
+}
+
+.h-style-program {
+  padding-left: 180px;
+  font-size: 36px;
+  color: #2f1ce4;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+
+.l-style-program {
+  padding-left: 200px;
+  font-size: 18px;
+}
+
+.l-style-mod-1 {
+  color: blue;
+}
+
+.p-style-program {
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+
+.f-style-program {
+  display: block;
+  padding-left: 200px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.style-img-program {
+  max-width: 400px;
+}
+
+.t-style-program {
+  border: 2px solid #a0a0a0;
+  border-collapse: collapse;
+  margin-top: 100px;
+  padding: 5px;
+}
+
+tr {
+  border: 2px solid #a0a0a0;
+  padding: 5px;
+}
+
+th {
+  border: 2px solid #a0a0a0;
+  padding: 5px;
+}
+
+td {
+  border: 2px solid #a0a0a0;
+  padding: 5px;
+}
+
+
+.a-style-program-2 {
+  direction: inherit;
+  border-bottom: 1px solid blue;
+  color: blue;
+}
+
+.page {
+  background: url(../figure.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom: 600px;
+}
+
+.h2-style {
+  color: #222020;
+  font-size: 40px;
+  margin-bottom: 60px;
+}
+
+.d-center {
+  margin-top: 105px;
+  margin-left: 80px;
+  margin-right: 70px;
+}
+
+.h1-style {
+  margin-left: 25px;
+  margin-bottom: 80px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  min-height: 80px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 80px;
+  border-radius: 2px;
+  border: 3px solid #2f1ce4;
+  background: none;
+  color: #2f1ce4;
+  font-size: 18px;
+}
+
+.boxed-list {
+  word-spacing: -.36em;
+}
+
+.boxed-list-item {
+  display: inline-block;
+  vertical-align: top;
+  word-spacing: normal;
+}
+
+.boxed-list-item-top {
+  margin-bottom: 60px;
+}
+
+.boxed-list-item-left {
+  margin-right: 60px;
+}
+
+.box {
+  position: relative;
+  width: 480px;
+  height: 505px;
+  box-shadow: -3px 1px 20px rgba(83, 83, 83, 0.31);
+}
+
+.art {
+  width: max-content;
+}
+
+.box-body {
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+}
+
+.h3-style {
+  margin-bottom: 30px;
+  color: #2f1ce4;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.ul-list-item {
+  margin-bottom: 20px;
+}
+
+.numbering-1 {
+  position: absolute;
+  right: 25px;
+  bottom: 20px;
+  color: #eaeaea;
+  font-size: 48px;
+  font-weight: 500;
+}
